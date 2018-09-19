@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopier", "FileCopier\FileCopier.csproj", "{871D9A8A-10AF-4AD1-AB24-2CFFA3D38B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolLab", "..\ThreadPoolLab\ThreadPoolLab\ThreadPoolLab.csproj", "{37B6A240-67FA-459A-998F-EA8F971939A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871D9A8A-10AF-4AD1-AB24-2CFFA3D38B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871D9A8A-10AF-4AD1-AB24-2CFFA3D38B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871D9A8A-10AF-4AD1-AB24-2CFFA3D38B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871D9A8A-10AF-4AD1-AB24-2CFFA3D38B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B6A240-67FA-459A-998F-EA8F971939A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B6A240-67FA-459A-998F-EA8F971939A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B6A240-67FA-459A-998F-EA8F971939A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B6A240-67FA-459A-998F-EA8F971939A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {941EC092-E59B-4EED-A19F-ED69596B8C93}
+	EndGlobalSection
+EndGlobal
