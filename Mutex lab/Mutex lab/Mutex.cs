@@ -2,6 +2,9 @@
 
 namespace MutexLab
 {
+    /*NOTE: I'm still confused why the task was so short.
+      Was there anything I missed while reading it?
+    */
     class Mutex : IMutex
     {
         private const int EMPTY_ID = -1;
@@ -24,6 +27,5 @@ namespace MutexLab
         {
             return Interlocked.CompareExchange(ref _lockerId, newId, compareToId) == compareToId;
         }
-
     }
 }
